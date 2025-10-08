@@ -1,0 +1,10 @@
+sources:
+  - name: tutorial
+    database: balmy-apogee-472023-i6
+    schema: jaffle_shop
+    description: "This is the source data for the Jaffle Shop."
+    tables:
+      - name: customers
+        description: "This table contains customer data."
+      - name: orders
+        description: "This table contains order data."
