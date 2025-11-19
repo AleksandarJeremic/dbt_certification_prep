@@ -2,4 +2,4 @@ select
         customer_id,
         first_name,
         last_name
-    from {{ source('tutorial', 'customers') }}
+from {{ source('tutorial', 'customers') }}
