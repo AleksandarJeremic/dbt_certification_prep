@@ -3,3 +3,7 @@ target/
 dbt_modules/
 logs/
 dbt_internal_packages/
+
+# Ignore dbt Learn GT auto-generated files
+packages.yml
+package-lock.yml
