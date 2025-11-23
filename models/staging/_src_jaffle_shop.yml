@@ -6,6 +6,11 @@ sources:
     tables:
       - name: customers
         description: "This table contains customer data."
+        columns:
+          - name: customer_id
+            data_tests:
+              - unique
+              - not_null
       - name: orders
         description: "This table contains order data."
         config:

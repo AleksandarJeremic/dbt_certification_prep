@@ -1,0 +1,6 @@
+sources:
+  - name: stripe
+    database: balmy-apogee-472023-i6
+    schema: stripe
+    tables:
+      - name: payment
