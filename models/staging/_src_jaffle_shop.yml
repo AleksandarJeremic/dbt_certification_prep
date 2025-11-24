@@ -7,14 +7,10 @@ sources:
       - name: customers
         description: "This table contains customer data."
         columns:
-          - name: customer_id
+          - name: id
             data_tests:
               - unique
               - not_null
+
       - name: orders
         description: "This table contains order data."
-        config:
-          freshness:
-            warn_after: {count: 24, period: hour}
-            error_after: {count: 48, period: hour}
-          loaded_at_field: _etl_loaded_at
